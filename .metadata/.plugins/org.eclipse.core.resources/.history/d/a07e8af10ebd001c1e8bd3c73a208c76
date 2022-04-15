@@ -1,0 +1,11 @@
+package com.example.crm.repository;
+
+
+
+import com.example.crm.model.Client;
+
+
+public interface ClientRepository extends JpaRepository <Cliente, Long>{
+	
+
+}
